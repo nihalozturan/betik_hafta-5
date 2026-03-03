@@ -1,0 +1,24 @@
+main:
+
+A=[
+"15:26 Ateşkes umurların da mı?! Terörist İsrail ordusu Lübnan'a yine saldırı düzenledi!",
+"15:25 Dem Parti’den çift taraflı İran açıklaması… Dışardan müdahale olmasın, içeriden rejim değiştirilsin!",
+"15:01 Bakan Uraloğlu'ndan açıklama! Hürmüz Boğazı'ndaki Türk gemilerinin durumu belli oldu",
+"14:37 Yaşadıkları hezi̇meti̇n görüntülenmesi̇ni̇ i̇stemi̇yorlar…. CNN Türk muhabi̇ri̇ ve kameramanı gözaltına alındı",
+"14:36 Shamdasani: İran'da 153 öğrenci ve öğretmenin hayatını kaybettiği saldırıyla ilgili soruşturma çağrısında bulunuyoruz",
+"14:23 Maneviyat herkesi heyecanlandırdı! Gaziantep'te 'Mukaddes Emanetler Sergisi' ziyarete açıldı",
+"14:12 Hangi il kaç vekil çıkaracak! İl il milletvekili sayıları...Artan ve azalan iller",
+"14:07 ABD dezenformasyon çabasında! Bekayi, ABD Özel Temsilcisi Witkoff'u yalanladı",
+]
+
+
+esd:
+
+from main import A
+for i in A:
+    son=i.split(' ') //split: ayırmak
+    for i in range(len(son)):
+        if j==0:
+            print(son[j])
+        else:
+            pass
